@@ -64,7 +64,9 @@ html[xmlns] .clearfix {
 * html .clearfix {
   height: 1%;
 }
-
+body{
+  background-color:black;
+}
 ul, li {
   padding: 0;
   margin: 0;
@@ -82,7 +84,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-color: rgb(17, 13, 13);
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -125,7 +127,7 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: rgb(0, 3, 37);
   font-family: 'Poppins', sans-serif;
 }
 
@@ -158,7 +160,7 @@ body {
 .main-button-red a {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #05035c;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -1255,7 +1257,7 @@ our facts
 */
 
 section.our-facts {
-  background-image: url(../images/facts-bg.jpg);
+  background-image: url(../images/facts-bg.webp);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1265,7 +1267,7 @@ section.our-facts {
 
 section.our-facts h2 {
   font-size: 38px;
-  color: #fff;
+  color: rgb(15, 138, 196);
   line-height: 50px;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -1274,7 +1276,7 @@ section.our-facts h2 {
 
 .count-area-content {
   text-align: center;
-  background-color: rgba(250,250,250,0.15);
+  background-color: rgba(20, 7, 95, 0.15);
   border-radius: 20px;
   padding: 25px 30px 35px 30px;
   margin: 15px 0px;
@@ -1287,14 +1289,14 @@ section.our-facts h2 {
 
 .count-digit {
     margin: 5px 0px;
-    color: #f5a425;
+    color: #ffffff;
     font-weight: 700;
     font-size: 36px;
 }
 .count-title {
     font-size: 18px;
     font-weight: 500;
-    color: #fff;
+    color: rgb(14, 68, 248);
     letter-spacing: 0.5px;
 }
 
@@ -1305,7 +1307,7 @@ section.our-facts h2 {
 section.our-facts .video {
   text-align: center;
   margin-left: 70px;
-  background-image: url(../images/video-item-bg.jpg);
+  background-image: url(../images/video-item-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1325,7 +1327,7 @@ contact us
 */
 
 section.contact-us {
-  background-image: url(../images/meetings-bg.jpg);
+  background-image: url(../images/meetings-bg.webp);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1383,7 +1385,7 @@ section.contact-us #contact textarea {
 section.contact-us #contact button {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #160579;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -1399,7 +1401,7 @@ section.contact-us #contact button:hover {
 }
 
 section.contact-us .right-info {
-  background-color: #a12c2f;
+  background-image: linear-gradient(rgb(4, 4, 110), rgb(0, 0, 0));
   border-radius: 20px;
   padding: 40px;
 }
@@ -1491,7 +1493,7 @@ upcoming meetings page
 */
 
 section.meetings-page {
-  background-image: url(../images/meetings-page-bg.jpg);
+  background-image: url(../images/meetings-page-bg.webp);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1507,7 +1509,7 @@ section.meetings-page .filters {
 
 section.meetings-page .filters li {
   font-size: 13px;
-  color: #a12c2f;
+  color: #1b0668;
   background-color: #fff;
   padding: 11px 30px;
   display: inline-block;
@@ -1518,10 +1520,12 @@ section.meetings-page .filters li {
   cursor: pointer;
   margin: 0px 3px;
 }
-
+.myr{
+  color: #006b9c;
+}
 section.meetings-page .filters ul li.active,
 section.meetings-page .filters ul li:hover {
-  background-color: #a12c2f;
+  background-color: #0f0d79;
   color: #fff;
 }
 
@@ -1562,7 +1566,7 @@ section.meetings-page .main-button-red a {
 
 section.meetings-page .pagination ul li.active a,
 section.meetings-page .pagination ul li a:hover {
-  background-color: #a12c2f;
+  background-color: #1b005a;
   color: #fff;
 }
 
@@ -1613,19 +1617,19 @@ section.meetings-page .pagination ul li a:hover {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #a12c2f;
+  color: #0d0059;
 }
 
 .meeting-single-item .thumb .date span {
   display: block;
-  color: #1f272b;
+  color: #0d0059;
   font-size: 22px;
   margin-top: 7px;
 }
 
 .meeting-single-item .down-content h4 {
   font-size: 22px;
-  color: #1f272b;
+  color: #0d0059;
   font-weight: 600;
   display: inline-block;
   margin-bottom: 15px;
@@ -1633,14 +1637,14 @@ section.meetings-page .pagination ul li a:hover {
 
 .meeting-single-item .down-content h5 {
   font-size: 18px;
-  color: #1f272b;
+  color: #0d0059;
   font-weight: 700;
   display: inline-block;
   margin-bottom: 15px;
 }
 
 .meeting-single-item .down-content p {
-  color: #1f272b;
+  color:#0d0059;
   font-size: 14px;
 }
 
@@ -1671,7 +1675,7 @@ section.meetings-page .pagination ul li a:hover {
 
 .meeting-single-item .down-content .share ul li a {
   font-size: 14px;
-  color: #1f272b;
+  color: #0d0059;
   transition: all .3s;
 }
 
@@ -1763,7 +1767,9 @@ responsive
 }
 
 @media (max-width: 992px) {
-
+  .our-facts{
+    margin-top:  433px;
+  }
   .main-banner .caption {
     top: 60%;
   }
